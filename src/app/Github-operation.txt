@@ -1,0 +1,350 @@
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (master)
+$ git clone https://github.com/VaibhavBelkhude/ng-zorro-antd.git
+Cloning into 'ng-zorro-antd'...
+remote: Enumerating objects: 50409, done.
+remote: Counting objects: 100% (58/58), done.
+remote: Compressing objects: 100% (40/40), done.
+remote: Total 50409 (delta 24), reused 40 (delta 18), pack-reused 50351Receiving objects: 100% (50409/50409), 17.64 MiB | 148.0
+
+Resolving deltas: 100% (37715/37715), done.
+Updating files: 100% (3234/3234), done.
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (master)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (master)
+$ git init Angular-Project
+Initialized empty Git repository in E:/Angular T/Agular-Zorro/Employee-Dashboard/Angular-Project/.git/
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (master)
+$ git add --all
+warning: in the working copy of 'angular.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/app/app-routing.module.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/app/app.component.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/app/app.component.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/app/app.component.spec.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/app/app.component.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/app/app.module.ts', LF will be replaced by CRLF the next time Git touches it
+error: 'Angular-Project/' does not have a commit checked out
+fatal: adding files failed
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (master)
+$ git commit -m "Anular-Dashboard"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   angular.json
+        modified:   package-lock.json
+        modified:   package.json
+        modified:   src/app/app-routing.module.ts
+        modified:   src/app/app.component.css
+        modified:   src/app/app.component.html
+        modified:   src/app/app.component.ts
+        modified:   src/app/app.module.ts
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Angular-Project/
+        ng-zorro-antd/
+        src/app/icons-provider.module.ts
+        src/app/pages/
+        src/theme.less
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (master)
+$ git stage
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (master)
+$ git add -A  
+warning: in the working copy of 'angular.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/app/app-routing.module.ts', LF will be replaced by CRLF the next time Git touches it      
+warning: in the working copy of 'src/app/app.component.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/app/app.component.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/app/app.component.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/app/app.module.ts', LF will be replaced by CRLF the next time Git touches it
+error: 'Angular-Project/' does not have a commit checked out
+fatal: adding files failed
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (master)
+$ git add angular.json
+warning: in the working copy of 'angular.json', LF will be replaced by CRLF the next time Git touches it
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   angular.json
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   package-lock.json
+        modified:   package.json
+        modified:   src/app/app-routing.module.ts
+        modified:   src/app/app.component.css
+        modified:   src/app/app.component.html
+        modified:   src/app/app.component.ts
+        modified:   src/app/app.module.ts
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Angular-Project/
+        ng-zorro-antd/
+        src/app/icons-provider.module.ts
+        src/app/pages/
+        src/theme.less
+
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (master)
+$ git add package-lock.json
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (master)
+$ git add package.json
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (master)
+$ git add src/app/app-routing.module.ts
+warning: in the working copy of 'src/app/app-routing.module.ts', LF will be replaced by CRLF the next time Git touches it
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (master)
+$ git add  src/app/app.component.css
+warning: in the working copy of 'src/app/app.component.css', LF will be replaced by CRLF the next time Git touches it
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (master)
+$ git add  src/app/app.component.html
+warning: in the working copy of 'src/app/app.component.html', LF will be replaced by CRLF the next time Git touches it
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (master)
+$ git add src/app/app.component.ts
+warning: in the working copy of 'src/app/app.component.ts', LF will be replaced by CRLF the next time Git touches it
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (master)
+$ git add src/app/app.module.ts
+warning: in the working copy of 'src/app/app.module.ts', LF will be replaced by CRLF the next time Git touches it
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   angular.json
+        modified:   package-lock.json
+        modified:   package.json
+        modified:   src/app/app-routing.module.ts
+        modified:   src/app/app.component.css
+        modified:   src/app/app.component.html
+        modified:   src/app/app.component.ts
+        modified:   src/app/app.module.ts
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Angular-Project/
+        ng-zorro-antd/
+        src/app/icons-provider.module.ts
+        src/app/pages/
+        src/theme.less
+
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (master)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (master)
+$ git push origin master  
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   angular.json
+        modified:   package-lock.json
+        modified:   package.json
+        modified:   src/app/app-routing.module.ts
+        modified:   src/app/app.component.css
+        modified:   src/app/app.component.html
+        modified:   src/app/app.component.ts
+        modified:   src/app/app.module.ts
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Angular-Project/
+        ng-zorro-antd/
+        src/app/icons-provider.module.ts
+        src/app/pages/
+        src/theme.less
+
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (master)
+$ git add Angular-Project/
+error: 'Angular-Project/' does not have a commit checked out
+fatal: adding files failed
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (master)
+$ git add src/app/icons-provider.module.ts
+warning: in the working copy of 'src/app/icons-provider.module.ts', LF will be replaced by CRLF the next time Git touches it
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (master)
+$ git add  src/app/pages/
+warning: in the working copy of 'src/app/pages/welcome/welcome-routing.module.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/app/pages/welcome/welcome.component.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/app/pages/welcome/welcome.module.ts', LF will be replaced by CRLF the next time Git touches it
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (master)
+$ git add src/theme.less
+warning: in the working copy of 'src/theme.less', LF will be replaced by CRLF the next time Git touches it
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   angular.json
+        modified:   package-lock.json
+        modified:   package.json
+        modified:   src/app/app-routing.module.ts
+        modified:   src/app/app.component.css
+        modified:   src/app/app.component.html
+        modified:   src/app/app.component.ts
+        modified:   src/app/app.module.ts
+        new file:   src/app/icons-provider.module.ts
+        new file:   src/app/pages/welcome/welcome-routing.module.ts
+        new file:   src/app/pages/welcome/welcome.component.css
+        new file:   src/app/pages/welcome/welcome.component.html
+        new file:   src/app/pages/welcome/welcome.component.ts
+        new file:   src/app/pages/welcome/welcome.module.ts
+        new file:   src/theme.less
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Angular-Project/
+        ng-zorro-antd/
+
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (master)
+$ git push --all
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (master)
+$ git push master
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream master master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (master)
+$ git commit -m "angular project"
+[master 0130a89] angular project
+ 15 files changed, 542 insertions(+), 490 deletions(-)
+ create mode 100644 src/app/icons-provider.module.ts
+ create mode 100644 src/app/pages/welcome/welcome-routing.module.ts
+ create mode 100644 src/app/pages/welcome/welcome.component.css
+ create mode 100644 src/app/pages/welcome/welcome.component.html
+ create mode 100644 src/app/pages/welcome/welcome.component.ts
+ create mode 100644 src/app/pages/welcome/welcome.module.ts
+ create mode 100644 src/theme.less
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (master)
+$ git init https://github.com/VaibhavBelkhude/Angular_Project.git
+fatal: cannot mkdir https://github.com/VaibhavBelkhude/Angular_Project.git: Invalid argument
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (master)
+$ git checkout https://github.com/VaibhavBelkhude/Angular_Project.git
+error: pathspec 'https://github.com/VaibhavBelkhude/Angular_Project.git' did not match any file(s) known to git
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (master)
+$ git branch
+* master
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (master)
+$ git checkout main
+error: pathspec 'main' did not match any file(s) known to git
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (master)
+$ git branch -M main
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (main)
+$ git branch
+* main
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (main)
+$ git add README.md
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (main)
+$ git init
+Reinitialized existing Git repository in E:/Angular T/Agular-Zorro/Employee-Dashboard/.git/
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (main)
+$ git commit -m "first commit"
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Angular-Project/
+        ng-zorro-antd/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (main)
+$ git remote add origin https://github.com/VaibhavBelkhude/Angular_Project.git
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (main)
+$ git push -u origin main
+Enumerating objects: 55, done.
+Counting objects: 100% (55/55), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (51/51), done.
+Writing objects: 100% (55/55), 221.71 KiB | 4.52 MiB/s, done.
+Total 55 (delta 9), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (9/9), done.
+To https://github.com/VaibhavBelkhude/Angular_Project.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+VAIBHAV@DESKTOP-0AR266N MINGW64 /e/Angular T/Agular-Zorro/Employee-Dashboard (main)
+$
